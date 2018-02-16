@@ -1,0 +1,1392 @@
+{
+    "inputs": 45, 
+    "scalequalities": null, 
+    "max_cost": 16, 
+    "density": null, 
+    "outputs": 30, 
+    "density_real": 0.05454545454545454, 
+    "min_cost": -15, 
+    "input->output": 58, 
+    "edges": 135, 
+    "pool->output": 35, 
+    "seed": 8, 
+    "addedges": 45, 
+    "components": 1, 
+    "graph": {
+        "directed": true, 
+        "graph": [
+            [
+                "attributes", 
+                [
+                    "k1"
+                ]
+            ], 
+            [
+                "name", 
+                "compose( ,  )"
+            ]
+        ], 
+        "nodes": [
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h08_i2", 
+                "lambda": {
+                    "k1": 0.5103953054366394
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h08_i3", 
+                "lambda": {
+                    "k1": 1.0207906108732787
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h08_i1", 
+                "lambda": {
+                    "k1": 1.531185916309918
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h11_i1", 
+                "lambda": {
+                    "k1": 2.0877796217028495
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h11_i2", 
+                "lambda": {
+                    "k1": 0.6959265405676165
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h11_i3", 
+                "lambda": {
+                    "k1": 1.391853081135233
+                }
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.3746229097956373
+                }, 
+                "C": 100, 
+                "type": "output", 
+                "id": "h02_j1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 0.8247737458773823
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h02_j2"
+            }, 
+            {
+                "C": 300, 
+                "type": "pool", 
+                "id": "h07_l1"
+            }, 
+            {
+                "C": 800, 
+                "type": "pool", 
+                "id": "h13_l1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.8493939582169536
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h04_j2"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 3.0823232636949225
+                }, 
+                "C": 600, 
+                "type": "output", 
+                "id": "h04_j1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.1756399562655842
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h14_j2"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.9593999271093068
+                }, 
+                "C": 100, 
+                "type": "output", 
+                "id": "h14_j1"
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h02_i1", 
+                "lambda": {
+                    "k1": 1.6495474917547646
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h02_i2", 
+                "lambda": {
+                    "k1": 0.5498491639182549
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h02_i3", 
+                "lambda": {
+                    "k1": 1.0996983278365098
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "pool", 
+                "id": "h01_l1"
+            }, 
+            {
+                "C": 800, 
+                "type": "input", 
+                "id": "h12_i1", 
+                "lambda": {
+                    "k1": 1.606573565951567
+                }
+            }, 
+            {
+                "C": 800, 
+                "type": "input", 
+                "id": "h12_i3", 
+                "lambda": {
+                    "k1": 1.0710490439677114
+                }
+            }, 
+            {
+                "C": 800, 
+                "type": "input", 
+                "id": "h12_i2", 
+                "lambda": {
+                    "k1": 0.5355245219838557
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "pool", 
+                "id": "h00_l1"
+            }, 
+            {
+                "C": 300, 
+                "type": "pool", 
+                "id": "h06_l1"
+            }, 
+            {
+                "C": 300, 
+                "type": "pool", 
+                "id": "h03_l1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 0.8292072189338943
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h07_j2"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.3820120315564903
+                }, 
+                "C": 100, 
+                "type": "output", 
+                "id": "h07_j1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.3388113049596393
+                }, 
+                "C": 600, 
+                "type": "output", 
+                "id": "h12_j1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 0.8032867829757835
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h12_j2"
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h10_i3", 
+                "lambda": {
+                    "k1": 1.6664717702140448
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h10_i2", 
+                "lambda": {
+                    "k1": 0.8332358851070224
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h10_i1", 
+                "lambda": {
+                    "k1": 2.499707655321067
+                }
+            }, 
+            {
+                "C": 800, 
+                "type": "pool", 
+                "id": "h04_l1"
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h00_i2", 
+                "lambda": {
+                    "k1": 0.6647484763682243
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h00_i1", 
+                "lambda": {
+                    "k1": 1.994245429104673
+                }
+            }, 
+            {
+                "C": 800, 
+                "type": "input", 
+                "id": "h13_i2", 
+                "lambda": {
+                    "k1": 0.8308862804179613
+                }
+            }, 
+            {
+                "C": 800, 
+                "type": "input", 
+                "id": "h13_i3", 
+                "lambda": {
+                    "k1": 1.6617725608359226
+                }
+            }, 
+            {
+                "C": 800, 
+                "type": "input", 
+                "id": "h13_i1", 
+                "lambda": {
+                    "k1": 2.492658841253884
+                }
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.5826702945766802
+                }, 
+                "C": 100, 
+                "type": "output", 
+                "id": "h06_j1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 0.9496021767460081
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h06_j2"
+            }, 
+            {
+                "C": 800, 
+                "type": "input", 
+                "id": "h05_i1", 
+                "lambda": {
+                    "k1": 2.7956856471547056
+                }
+            }, 
+            {
+                "C": 800, 
+                "type": "input", 
+                "id": "h05_i3", 
+                "lambda": {
+                    "k1": 1.8637904314364704
+                }
+            }, 
+            {
+                "C": 800, 
+                "type": "input", 
+                "id": "h05_i2", 
+                "lambda": {
+                    "k1": 0.9318952157182352
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h09_i1", 
+                "lambda": {
+                    "k1": 2.6100652699341857
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h00_i3", 
+                "lambda": {
+                    "k1": 1.3294969527364486
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h09_i3", 
+                "lambda": {
+                    "k1": 1.7400435132894572
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h09_i2", 
+                "lambda": {
+                    "k1": 0.8700217566447286
+                }
+            }, 
+            {
+                "overbeta": {
+                    "k1": 2.996733161025658
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h03_j2"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 4.9945552683760965
+                }, 
+                "C": 100, 
+                "type": "output", 
+                "id": "h03_j1"
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h14_i3", 
+                "lambda": {
+                    "k1": 1.5675199416874455
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h14_i2", 
+                "lambda": {
+                    "k1": 0.7837599708437227
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h14_i1", 
+                "lambda": {
+                    "k1": 2.3512799125311683
+                }
+            }, 
+            {
+                "overbeta": {
+                    "k1": 0.765592958154959
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h08_j2"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.2759882635915984
+                }, 
+                "C": 100, 
+                "type": "output", 
+                "id": "h08_j1"
+            }, 
+            {
+                "C": 800, 
+                "type": "pool", 
+                "id": "h12_l1"
+            }, 
+            {
+                "C": 300, 
+                "type": "pool", 
+                "id": "h08_l1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 2.329738039295588
+                }, 
+                "C": 600, 
+                "type": "output", 
+                "id": "h05_j1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.3978428235773528
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h05_j2"
+            }, 
+            {
+                "C": 300, 
+                "type": "pool", 
+                "id": "h10_l1"
+            }, 
+            {
+                "C": 300, 
+                "type": "pool", 
+                "id": "h11_l1"
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h07_i3", 
+                "lambda": {
+                    "k1": 1.1056096252451924
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h07_i2", 
+                "lambda": {
+                    "k1": 0.5528048126225962
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h07_i1", 
+                "lambda": {
+                    "k1": 1.6584144378677885
+                }
+            }, 
+            {
+                "overbeta": {
+                    "k1": 2.1750543916118215
+                }, 
+                "C": 100, 
+                "type": "output", 
+                "id": "h09_j1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.3050326349670929
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h09_j2"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.7398163514190412
+                }, 
+                "C": 100, 
+                "type": "output", 
+                "id": "h11_j1"
+            }, 
+            {
+                "C": 300, 
+                "type": "pool", 
+                "id": "h02_l1"
+            }, 
+            {
+                "C": 800, 
+                "type": "input", 
+                "id": "h04_i2", 
+                "lambda": {
+                    "k1": 1.232929305477969
+                }
+            }, 
+            {
+                "C": 800, 
+                "type": "input", 
+                "id": "h04_i3", 
+                "lambda": {
+                    "k1": 2.465858610955938
+                }
+            }, 
+            {
+                "C": 800, 
+                "type": "input", 
+                "id": "h04_i1", 
+                "lambda": {
+                    "k1": 3.6987879164339073
+                }
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.246329420626942
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h13_j2"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 2.0772157010449033
+                }, 
+                "C": 600, 
+                "type": "output", 
+                "id": "h13_j1"
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h06_i1", 
+                "lambda": {
+                    "k1": 1.8992043534920162
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h06_i2", 
+                "lambda": {
+                    "k1": 0.6330681178306721
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h06_i3", 
+                "lambda": {
+                    "k1": 1.2661362356613441
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h01_i1", 
+                "lambda": {
+                    "k1": 1.7373748358380907
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h01_i3", 
+                "lambda": {
+                    "k1": 1.158249890558727
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h01_i2", 
+                "lambda": {
+                    "k1": 0.5791249452793635
+                }
+            }, 
+            {
+                "C": 800, 
+                "type": "pool", 
+                "id": "h05_l1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.2498538276605335
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h10_j2"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.4478123631984088
+                }, 
+                "C": 100, 
+                "type": "output", 
+                "id": "h01_j1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 0.8686874179190454
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h01_j2"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 2.083089712767556
+                }, 
+                "C": 100, 
+                "type": "output", 
+                "id": "h10_j1"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 0.9971227145523365
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h00_j2"
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.6618711909205608
+                }, 
+                "C": 100, 
+                "type": "output", 
+                "id": "h00_j1"
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h03_i3", 
+                "lambda": {
+                    "k1": 3.9956442147008775
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h03_i2", 
+                "lambda": {
+                    "k1": 1.9978221073504387
+                }
+            }, 
+            {
+                "C": 300, 
+                "type": "input", 
+                "id": "h03_i1", 
+                "lambda": {
+                    "k1": 5.993466322051316
+                }
+            }, 
+            {
+                "overbeta": {
+                    "k1": 1.0438898108514247
+                }, 
+                "C": 200, 
+                "type": "output", 
+                "id": "h11_j2"
+            }, 
+            {
+                "C": 300, 
+                "type": "pool", 
+                "id": "h14_l1"
+            }, 
+            {
+                "C": 300, 
+                "type": "pool", 
+                "id": "h09_l1"
+            }
+        ], 
+        "links": [
+            {
+                "source": 0, 
+                "cost": 14.913825030232722, 
+                "target": 12
+            }, 
+            {
+                "source": 0, 
+                "cost": -5.698612640716316, 
+                "target": 65
+            }, 
+            {
+                "source": 0, 
+                "cost": 16, 
+                "target": 54
+            }, 
+            {
+                "source": 1, 
+                "cost": -5, 
+                "target": 51
+            }, 
+            {
+                "source": 1, 
+                "cost": 1, 
+                "target": 52
+            }, 
+            {
+                "source": 1, 
+                "cost": 12.1305546919634, 
+                "target": 79
+            }, 
+            {
+                "source": 2, 
+                "cost": 6, 
+                "target": 54
+            }, 
+            {
+                "source": 3, 
+                "cost": 6, 
+                "target": 58
+            }, 
+            {
+                "source": 3, 
+                "cost": 15.382218485606767, 
+                "target": 38
+            }, 
+            {
+                "source": 3, 
+                "cost": -10.593722650347562, 
+                "target": 52
+            }, 
+            {
+                "source": 4, 
+                "cost": -1.3127599302717385, 
+                "target": 55
+            }, 
+            {
+                "source": 4, 
+                "cost": 13, 
+                "target": 58
+            }, 
+            {
+                "source": 4, 
+                "cost": -12.051536663956744, 
+                "target": 62
+            }, 
+            {
+                "source": 5, 
+                "cost": 1, 
+                "target": 64
+            }, 
+            {
+                "source": 5, 
+                "cost": -5, 
+                "target": 87
+            }, 
+            {
+                "source": 8, 
+                "cost": -15, 
+                "target": 24
+            }, 
+            {
+                "source": 8, 
+                "cost": -9, 
+                "target": 25
+            }, 
+            {
+                "source": 9, 
+                "cost": -15, 
+                "target": 69
+            }, 
+            {
+                "source": 9, 
+                "cost": -9, 
+                "target": 70
+            }, 
+            {
+                "source": 9, 
+                "cost": -0.966635092456908, 
+                "target": 47
+            }, 
+            {
+                "source": 14, 
+                "cost": -14.474792187727527, 
+                "target": 31
+            }, 
+            {
+                "source": 14, 
+                "cost": 0.6122635256019002, 
+                "target": 82
+            }, 
+            {
+                "source": 14, 
+                "cost": 6, 
+                "target": 65
+            }, 
+            {
+                "source": 15, 
+                "cost": 16, 
+                "target": 65
+            }, 
+            {
+                "source": 15, 
+                "cost": -0.33117996531334093, 
+                "target": 21
+            }, 
+            {
+                "source": 15, 
+                "cost": -2.7158177673509076, 
+                "target": 70
+            }, 
+            {
+                "source": 16, 
+                "cost": 12.635499193701946, 
+                "target": 25
+            }, 
+            {
+                "source": 16, 
+                "cost": 1, 
+                "target": 6
+            }, 
+            {
+                "source": 16, 
+                "cost": -5, 
+                "target": 7
+            }, 
+            {
+                "source": 17, 
+                "cost": -9, 
+                "target": 79
+            }, 
+            {
+                "source": 17, 
+                "cost": -15, 
+                "target": 80
+            }, 
+            {
+                "source": 18, 
+                "cost": 10.906031857949547, 
+                "target": 56
+            }, 
+            {
+                "source": 18, 
+                "cost": 6, 
+                "target": 53
+            }, 
+            {
+                "source": 19, 
+                "cost": 1.3903260366245256, 
+                "target": 8
+            }, 
+            {
+                "source": 19, 
+                "cost": 1, 
+                "target": 26
+            }, 
+            {
+                "source": 19, 
+                "cost": -5, 
+                "target": 27
+            }, 
+            {
+                "source": 20, 
+                "cost": 16, 
+                "target": 53
+            }, 
+            {
+                "source": 21, 
+                "cost": -15, 
+                "target": 82
+            }, 
+            {
+                "source": 21, 
+                "cost": -9, 
+                "target": 83
+            }, 
+            {
+                "source": 22, 
+                "cost": -9, 
+                "target": 37
+            }, 
+            {
+                "source": 22, 
+                "cost": -15, 
+                "target": 38
+            }, 
+            {
+                "source": 23, 
+                "cost": 3.24377026535004, 
+                "target": 81
+            }, 
+            {
+                "source": 23, 
+                "cost": -15, 
+                "target": 46
+            }, 
+            {
+                "source": 23, 
+                "cost": 12.30975024997625, 
+                "target": 62
+            }, 
+            {
+                "source": 23, 
+                "cost": -9, 
+                "target": 47
+            }, 
+            {
+                "source": 28, 
+                "cost": -5, 
+                "target": 78
+            }, 
+            {
+                "source": 28, 
+                "cost": 1, 
+                "target": 81
+            }, 
+            {
+                "source": 29, 
+                "cost": 16, 
+                "target": 57
+            }, 
+            {
+                "source": 30, 
+                "cost": -7.439525200836137, 
+                "target": 82
+            }, 
+            {
+                "source": 30, 
+                "cost": 6, 
+                "target": 57
+            }, 
+            {
+                "source": 30, 
+                "cost": 8.693243151858706, 
+                "target": 79
+            }, 
+            {
+                "source": 31, 
+                "cost": -15, 
+                "target": 10
+            }, 
+            {
+                "source": 31, 
+                "cost": -9, 
+                "target": 11
+            }, 
+            {
+                "source": 31, 
+                "cost": 8.056310074640365, 
+                "target": 62
+            }, 
+            {
+                "source": 32, 
+                "cost": 13, 
+                "target": 21
+            }, 
+            {
+                "source": 33, 
+                "cost": 6, 
+                "target": 21
+            }, 
+            {
+                "source": 34, 
+                "cost": 16, 
+                "target": 9
+            }, 
+            {
+                "source": 34, 
+                "cost": -7.816703049017561, 
+                "target": 81
+            }, 
+            {
+                "source": 35, 
+                "cost": -5, 
+                "target": 69
+            }, 
+            {
+                "source": 35, 
+                "cost": 1, 
+                "target": 70
+            }, 
+            {
+                "source": 35, 
+                "cost": -1.1723456410929316, 
+                "target": 25
+            }, 
+            {
+                "source": 35, 
+                "cost": -6.727888747727418, 
+                "target": 55
+            }, 
+            {
+                "source": 36, 
+                "cost": 6, 
+                "target": 9
+            }, 
+            {
+                "source": 36, 
+                "cost": -9.725132393517352, 
+                "target": 26
+            }, 
+            {
+                "source": 39, 
+                "cost": 6, 
+                "target": 77
+            }, 
+            {
+                "source": 40, 
+                "cost": 1, 
+                "target": 55
+            }, 
+            {
+                "source": 40, 
+                "cost": -5, 
+                "target": 56
+            }, 
+            {
+                "source": 41, 
+                "cost": 16, 
+                "target": 77
+            }, 
+            {
+                "source": 41, 
+                "cost": 3.7674548994263937, 
+                "target": 64
+            }, 
+            {
+                "source": 41, 
+                "cost": 14.32759445280887, 
+                "target": 17
+            }, 
+            {
+                "source": 42, 
+                "cost": -11.697774360383447, 
+                "target": 88
+            }, 
+            {
+                "source": 42, 
+                "cost": 6, 
+                "target": 89
+            }, 
+            {
+                "source": 43, 
+                "cost": -5, 
+                "target": 82
+            }, 
+            {
+                "source": 43, 
+                "cost": 1, 
+                "target": 83
+            }, 
+            {
+                "source": 44, 
+                "cost": 1, 
+                "target": 62
+            }, 
+            {
+                "source": 44, 
+                "cost": -5, 
+                "target": 63
+            }, 
+            {
+                "source": 45, 
+                "cost": -3.0236783519057493, 
+                "target": 79
+            }, 
+            {
+                "source": 45, 
+                "cost": 13, 
+                "target": 89
+            }, 
+            {
+                "source": 48, 
+                "cost": -5, 
+                "target": 12
+            }, 
+            {
+                "source": 48, 
+                "cost": 15.704256060045878, 
+                "target": 24
+            }, 
+            {
+                "source": 48, 
+                "cost": 1, 
+                "target": 13
+            }, 
+            {
+                "source": 48, 
+                "cost": -11.217317422015537, 
+                "target": 31
+            }, 
+            {
+                "source": 48, 
+                "cost": 12.942623760144457, 
+                "target": 25
+            }, 
+            {
+                "source": 49, 
+                "cost": 13, 
+                "target": 88
+            }, 
+            {
+                "source": 50, 
+                "cost": 6, 
+                "target": 88
+            }, 
+            {
+                "source": 53, 
+                "cost": -9, 
+                "target": 26
+            }, 
+            {
+                "source": 53, 
+                "cost": -15, 
+                "target": 27
+            }, 
+            {
+                "source": 54, 
+                "cost": -15, 
+                "target": 51
+            }, 
+            {
+                "source": 54, 
+                "cost": -9, 
+                "target": 52
+            }, 
+            {
+                "source": 54, 
+                "cost": 0.42499658469223256, 
+                "target": 56
+            }, 
+            {
+                "source": 57, 
+                "cost": -15, 
+                "target": 78
+            }, 
+            {
+                "source": 57, 
+                "cost": -9, 
+                "target": 81
+            }, 
+            {
+                "source": 58, 
+                "cost": -9, 
+                "target": 64
+            }, 
+            {
+                "source": 58, 
+                "cost": -15, 
+                "target": 87
+            }, 
+            {
+                "source": 59, 
+                "cost": -5, 
+                "target": 24
+            }, 
+            {
+                "source": 59, 
+                "cost": -11.973888803377392, 
+                "target": 58
+            }, 
+            {
+                "source": 59, 
+                "cost": 1, 
+                "target": 25
+            }, 
+            {
+                "source": 60, 
+                "cost": 16, 
+                "target": 8
+            }, 
+            {
+                "source": 60, 
+                "cost": 0.6526221494035234, 
+                "target": 58
+            }, 
+            {
+                "source": 61, 
+                "cost": 6, 
+                "target": 8
+            }, 
+            {
+                "source": 61, 
+                "cost": 2.9478153522622463, 
+                "target": 70
+            }, 
+            {
+                "source": 65, 
+                "cost": -9, 
+                "target": 6
+            }, 
+            {
+                "source": 65, 
+                "cost": -15, 
+                "target": 7
+            }, 
+            {
+                "source": 66, 
+                "cost": 16, 
+                "target": 31
+            }, 
+            {
+                "source": 66, 
+                "cost": 14.920047424256865, 
+                "target": 78
+            }, 
+            {
+                "source": 67, 
+                "cost": -8.743943980594768, 
+                "target": 17
+            }, 
+            {
+                "source": 67, 
+                "cost": -5, 
+                "target": 10
+            }, 
+            {
+                "source": 67, 
+                "cost": 1, 
+                "target": 11
+            }, 
+            {
+                "source": 67, 
+                "cost": -10.815752290879994, 
+                "target": 7
+            }, 
+            {
+                "source": 68, 
+                "cost": 6, 
+                "target": 31
+            }, 
+            {
+                "source": 71, 
+                "cost": -3.834919379924628, 
+                "target": 46
+            }, 
+            {
+                "source": 71, 
+                "cost": 6, 
+                "target": 22
+            }, 
+            {
+                "source": 72, 
+                "cost": -3.3152923937965433, 
+                "target": 80
+            }, 
+            {
+                "source": 72, 
+                "cost": 13, 
+                "target": 22
+            }, 
+            {
+                "source": 73, 
+                "cost": 1, 
+                "target": 37
+            }, 
+            {
+                "source": 73, 
+                "cost": -5, 
+                "target": 38
+            }, 
+            {
+                "source": 73, 
+                "cost": 6.766507871955227, 
+                "target": 27
+            }, 
+            {
+                "source": 74, 
+                "cost": 6, 
+                "target": 17
+            }, 
+            {
+                "source": 75, 
+                "cost": 1, 
+                "target": 79
+            }, 
+            {
+                "source": 75, 
+                "cost": -5, 
+                "target": 80
+            }, 
+            {
+                "source": 75, 
+                "cost": -3.942401099903684, 
+                "target": 23
+            }, 
+            {
+                "source": 76, 
+                "cost": 13, 
+                "target": 17
+            }, 
+            {
+                "source": 77, 
+                "cost": -9, 
+                "target": 55
+            }, 
+            {
+                "source": 77, 
+                "cost": -15, 
+                "target": 56
+            }, 
+            {
+                "source": 84, 
+                "cost": -5, 
+                "target": 46
+            }, 
+            {
+                "source": 84, 
+                "cost": 1, 
+                "target": 47
+            }, 
+            {
+                "source": 85, 
+                "cost": -8.990526068252017, 
+                "target": 31
+            }, 
+            {
+                "source": 85, 
+                "cost": 16, 
+                "target": 23
+            }, 
+            {
+                "source": 86, 
+                "cost": 5.558314155156722, 
+                "target": 83
+            }, 
+            {
+                "source": 86, 
+                "cost": 6, 
+                "target": 23
+            }, 
+            {
+                "source": 86, 
+                "cost": -9.4882609064639, 
+                "target": 62
+            }, 
+            {
+                "source": 88, 
+                "cost": -15, 
+                "target": 12
+            }, 
+            {
+                "source": 88, 
+                "cost": -9, 
+                "target": 13
+            }, 
+            {
+                "source": 89, 
+                "cost": -9, 
+                "target": 62
+            }, 
+            {
+                "source": 89, 
+                "cost": -15, 
+                "target": 63
+            }
+        ], 
+        "multigraph": false
+    }, 
+    "pools": 15, 
+    "attributes": 0, 
+    "nodes": 90, 
+    "out": "random_haverly_7/haverly_15_addedges_45_attr_0_1", 
+    "input->pool": 42, 
+    "haverly": 15, 
+    "scalehaverlys": "random"
+}

@@ -1,0 +1,537 @@
+* Generated with the following parameters:
+* 	scalequalities : None
+* 	density        : None
+* 	seed           : 59
+* 	addedges       : 60
+* 	attributes     : 0
+* 	out            : random_haverly_7/haverly_10_addedges_60_attr_0_4
+* 	haverly        : 10
+* 	scalehaverlys  : random
+
+* Statistics about the input graph:
+* 	nodes         : 60
+* 	edges         : 120
+* 	inputs        : 30
+* 	pools         : 10
+* 	outputs       : 20
+* 	components    : 1
+* 	density_real  : 0.109090909091
+* 	input->pool   : 37
+* 	pool->output  : 35
+* 	input->output : 48
+* 	min_cost      : -15
+* 	max_cost      : 16
+
+set V /h2_i3, h2_i2, h2_i1, h9_j2, h9_j1, h3_i3, h1_l1, h0_i2, h0_l1, h8_i1, h8_i3, h8_i2, h6_l1, h3_l1, h0_j1, h4_i1, h0_j2, h4_i3, h4_i2, h3_j1, h3_j2, h3_i1, h3_i2, h1_i2, h1_i3, h7_l1, h1_i1, h4_l1, h8_l1, h9_i2, h5_l1, h0_i1, h1_j2, h1_j1, h7_i1, h7_i2, h7_i3, h9_i1, h9_l1, h6_j2, h6_j1, h5_i2, h5_i3, h5_i1, h2_l1, h7_j1, h9_i3, h0_i3, h7_j2, h2_j2, h2_j1, h8_j1, h8_j2, h6_i3, h6_i2, h6_i1, h4_j1, h4_j2, h5_j2, h5_j1/;
+set K /k1/;
+set I /h2_i3, h2_i2, h2_i1, h3_i3, h0_i2, h8_i1, h8_i3, h8_i2, h4_i1, h4_i3, h4_i2, h3_i1, h3_i2, h1_i2, h1_i3, h1_i1, h9_i2, h0_i1, h7_i1, h7_i2, h7_i3, h9_i1, h5_i2, h5_i3, h5_i1, h9_i3, h0_i3, h6_i3, h6_i2, h6_i1/;
+set L /h1_l1, h0_l1, h6_l1, h3_l1, h7_l1, h4_l1, h8_l1, h5_l1, h9_l1, h2_l1/;
+set J /h9_j2, h9_j1, h0_j1, h0_j2, h3_j1, h3_j2, h1_j2, h1_j1, h6_j2, h6_j1, h7_j1, h7_j2, h2_j2, h2_j1, h8_j1, h8_j2, h4_j1, h4_j2, h5_j2, h5_j1/;
+set A /
+    h2_i3.h7_j2, 
+    h2_i3.h1_j1, 
+    h2_i3.h2_j2, 
+    h2_i3.h2_j1, 
+    h2_i3.h8_j1, 
+    h2_i3.h7_l1, 
+    h2_i3.h9_l1, 
+    h2_i2.h2_l1, 
+    h2_i2.h7_l1, 
+    h2_i2.h3_j2, 
+    h2_i1.h2_l1, 
+    h7_i3.h7_j1, 
+    h7_i3.h8_j2, 
+    h7_i3.h7_j2, 
+    h0_i1.h7_j1, 
+    h0_i1.h0_l1, 
+    h3_i3.h3_j1, 
+    h3_i3.h3_j2, 
+    h1_l1.h7_j2, 
+    h1_l1.h3_j1, 
+    h1_l1.h1_j2, 
+    h1_l1.h1_j1, 
+    h1_l1.h9_j2, 
+    h9_l1.h7_j1, 
+    h9_l1.h0_j2, 
+    h9_l1.h5_j1, 
+    h9_l1.h9_j2, 
+    h9_l1.h9_j1, 
+    h0_l1.h0_j1, 
+    h0_l1.h0_j2, 
+    h0_l1.h9_j1, 
+    h8_i1.h8_l1, 
+    h8_i3.h8_j1, 
+    h8_i3.h8_j2, 
+    h8_i3.h5_j2, 
+    h8_i2.h8_l1, 
+    h6_l1.h6_j2, 
+    h6_l1.h7_j1, 
+    h6_l1.h6_j1, 
+    h6_l1.h0_j1, 
+    h5_i2.h5_l1, 
+    h5_i2.h8_l1, 
+    h5_i3.h5_j2, 
+    h5_i3.h5_j1, 
+    h5_i3.h8_j1, 
+    h3_l1.h3_j1, 
+    h3_l1.h3_j2, 
+    h7_i1.h7_l1, 
+    h7_i1.h6_l1, 
+    h2_l1.h7_j1, 
+    h2_l1.h6_j1, 
+    h2_l1.h2_j2, 
+    h2_l1.h9_j2, 
+    h2_l1.h2_j1, 
+    h4_i1.h4_l1, 
+    h4_i1.h1_l1, 
+    h7_i2.h7_l1, 
+    h4_i3.h0_j2, 
+    h4_i3.h3_l1, 
+    h4_i3.h4_j1, 
+    h4_i3.h4_j2, 
+    h4_i2.h8_j1, 
+    h4_i2.h4_l1, 
+    h4_i2.h2_l1, 
+    h9_i2.h5_j2, 
+    h9_i2.h9_l1, 
+    h9_i2.h0_l1, 
+    h9_i3.h0_j1, 
+    h9_i3.h4_l1, 
+    h9_i3.h9_j2, 
+    h9_i3.h9_j1, 
+    h9_i3.h0_l1, 
+    h0_i3.h0_j1, 
+    h0_i3.h0_j2, 
+    h0_i3.h3_j2, 
+    h0_i3.h6_j1, 
+    h0_i3.h8_l1, 
+    h9_i1.h3_j1, 
+    h9_i1.h9_l1, 
+    h5_i1.h5_l1, 
+    h5_i1.h7_j1, 
+    h5_i1.h6_j1, 
+    h3_i1.h5_j2, 
+    h3_i1.h8_j2, 
+    h3_i1.h3_j1, 
+    h3_i1.h3_l1, 
+    h3_i1.h2_j1, 
+    h6_i3.h6_j2, 
+    h6_i3.h6_j1, 
+    h6_i3.h9_j1, 
+    h6_i3.h8_l1, 
+    h3_i2.h7_l1, 
+    h3_i2.h9_j2, 
+    h3_i2.h3_l1, 
+    h6_i1.h6_l1, 
+    h6_i1.h1_j1, 
+    h1_i2.h7_j1, 
+    h1_i2.h7_l1, 
+    h1_i2.h1_l1, 
+    h1_i3.h5_l1, 
+    h1_i3.h1_j2, 
+    h1_i3.h1_j1, 
+    h7_l1.h7_j1, 
+    h7_l1.h7_j2, 
+    h1_i1.h8_j2, 
+    h1_i1.h4_l1, 
+    h1_i1.h1_l1, 
+    h4_l1.h5_j1, 
+    h4_l1.h4_j1, 
+    h4_l1.h4_j2, 
+    h0_i2.h2_j1, 
+    h0_i2.h0_l1, 
+    h8_l1.h8_j1, 
+    h8_l1.h8_j2, 
+    h8_l1.h6_j1, 
+    h8_l1.h0_j2, 
+    h5_l1.h5_j2, 
+    h5_l1.h5_j1, 
+    h6_i2.h8_j1, 
+    h6_i2.h6_l1
+/;
+parameter cost(V,V) /
+    h2_i3.h7_j2 2.490755
+    h2_i3.h1_j1 -7.293901
+    h2_i3.h2_j2 -5.000000
+    h2_i3.h2_j1 1.000000
+    h2_i3.h8_j1 -5.539595
+    h2_i3.h7_l1 14.613581
+    h2_i3.h9_l1 15.316804
+    h2_i2.h2_l1 13.000000
+    h2_i2.h7_l1 10.107943
+    h2_i2.h3_j2 -11.804440
+    h2_i1.h2_l1 6.000000
+    h7_i3.h7_j1 1.000000
+    h7_i3.h8_j2 -11.717727
+    h7_i3.h7_j2 -5.000000
+    h0_i1.h7_j1 -4.699644
+    h0_i1.h0_l1 6.000000
+    h3_i3.h3_j1 1.000000
+    h3_i3.h3_j2 -5.000000
+    h1_l1.h7_j2 -3.657934
+    h1_l1.h3_j1 1.628158
+    h1_l1.h1_j2 -15.000000
+    h1_l1.h1_j1 -9.000000
+    h1_l1.h9_j2 10.598358
+    h9_l1.h7_j1 14.936106
+    h9_l1.h0_j2 2.116417
+    h9_l1.h5_j1 11.325392
+    h9_l1.h9_j2 -15.000000
+    h9_l1.h9_j1 -9.000000
+    h0_l1.h0_j1 -9.000000
+    h0_l1.h0_j2 -15.000000
+    h0_l1.h9_j1 10.859514
+    h8_i1.h8_l1 6.000000
+    h8_i3.h8_j1 1.000000
+    h8_i3.h8_j2 -5.000000
+    h8_i3.h5_j2 -2.614061
+    h8_i2.h8_l1 13.000000
+    h6_l1.h6_j2 -15.000000
+    h6_l1.h7_j1 9.182993
+    h6_l1.h6_j1 -9.000000
+    h6_l1.h0_j1 1.499479
+    h5_i2.h5_l1 16.000000
+    h5_i2.h8_l1 -3.859542
+    h5_i3.h5_j2 -5.000000
+    h5_i3.h5_j1 1.000000
+    h5_i3.h8_j1 -9.219775
+    h3_l1.h3_j1 -9.000000
+    h3_l1.h3_j2 -15.000000
+    h7_i1.h7_l1 6.000000
+    h7_i1.h6_l1 -2.456363
+    h2_l1.h7_j1 -14.691358
+    h2_l1.h6_j1 9.161735
+    h2_l1.h2_j2 -15.000000
+    h2_l1.h9_j2 -12.956125
+    h2_l1.h2_j1 -9.000000
+    h4_i1.h4_l1 6.000000
+    h4_i1.h1_l1 6.282244
+    h7_i2.h7_l1 13.000000
+    h4_i3.h0_j2 1.294450
+    h4_i3.h3_l1 -0.366517
+    h4_i3.h4_j1 1.000000
+    h4_i3.h4_j2 -5.000000
+    h4_i2.h8_j1 8.197358
+    h4_i2.h4_l1 16.000000
+    h4_i2.h2_l1 3.740704
+    h9_i2.h5_j2 -12.243804
+    h9_i2.h9_l1 16.000000
+    h9_i2.h0_l1 -11.323810
+    h9_i3.h0_j1 -7.830530
+    h9_i3.h4_l1 -10.826682
+    h9_i3.h9_j2 -5.000000
+    h9_i3.h9_j1 1.000000
+    h9_i3.h0_l1 3.647057
+    h0_i3.h0_j1 1.000000
+    h0_i3.h0_j2 -5.000000
+    h0_i3.h3_j2 -13.238538
+    h0_i3.h6_j1 -1.451263
+    h0_i3.h8_l1 11.191919
+    h9_i1.h3_j1 -7.935441
+    h9_i1.h9_l1 6.000000
+    h5_i1.h5_l1 6.000000
+    h5_i1.h7_j1 -7.538874
+    h5_i1.h6_j1 0.904297
+    h3_i1.h5_j2 -10.451949
+    h3_i1.h8_j2 -1.988254
+    h3_i1.h3_j1 -9.219632
+    h3_i1.h3_l1 6.000000
+    h3_i1.h2_j1 2.963952
+    h6_i3.h6_j2 -5.000000
+    h6_i3.h6_j1 1.000000
+    h6_i3.h9_j1 -5.134636
+    h6_i3.h8_l1 4.711498
+    h3_i2.h7_l1 2.763815
+    h3_i2.h9_j2 -5.489767
+    h3_i2.h3_l1 16.000000
+    h6_i1.h6_l1 6.000000
+    h6_i1.h1_j1 7.644374
+    h1_i2.h7_j1 10.951172
+    h1_i2.h7_l1 7.826163
+    h1_i2.h1_l1 16.000000
+    h1_i3.h5_l1 4.860257
+    h1_i3.h1_j2 -5.000000
+    h1_i3.h1_j1 1.000000
+    h7_l1.h7_j1 -9.000000
+    h7_l1.h7_j2 -15.000000
+    h1_i1.h8_j2 -9.959031
+    h1_i1.h4_l1 6.416444
+    h1_i1.h1_l1 6.000000
+    h4_l1.h5_j1 -14.184898
+    h4_l1.h4_j1 -9.000000
+    h4_l1.h4_j2 -15.000000
+    h0_i2.h2_j1 -9.709348
+    h0_i2.h0_l1 13.000000
+    h8_l1.h8_j1 -9.000000
+    h8_l1.h8_j2 -15.000000
+    h8_l1.h6_j1 -1.438954
+    h8_l1.h0_j2 7.613269
+    h5_l1.h5_j2 -15.000000
+    h5_l1.h5_j1 -9.000000
+    h6_i2.h8_j1 1.041903
+    h6_i2.h6_l1 13.000000
+/;
+parameter C(V) /
+    h2_i3 300.000000
+    h2_i2 300.000000
+    h2_i1 300.000000
+    h9_j2 200.000000
+    h9_j1 100.000000
+    h3_i3 300.000000
+    h1_l1 300.000000
+    h0_i2 300.000000
+    h0_l1 300.000000
+    h8_i1 300.000000
+    h8_i3 300.000000
+    h8_i2 300.000000
+    h6_l1 300.000000
+    h3_l1 300.000000
+    h0_j1 100.000000
+    h4_i1 800.000000
+    h0_j2 200.000000
+    h4_i3 800.000000
+    h4_i2 800.000000
+    h3_j1 100.000000
+    h3_j2 200.000000
+    h3_i1 300.000000
+    h3_i2 300.000000
+    h1_i2 300.000000
+    h1_i3 300.000000
+    h7_l1 300.000000
+    h1_i1 300.000000
+    h4_l1 800.000000
+    h8_l1 300.000000
+    h9_i2 300.000000
+    h5_l1 800.000000
+    h0_i1 300.000000
+    h1_j2 200.000000
+    h1_j1 100.000000
+    h7_i1 300.000000
+    h7_i2 300.000000
+    h7_i3 300.000000
+    h9_i1 300.000000
+    h9_l1 300.000000
+    h6_j2 200.000000
+    h6_j1 100.000000
+    h5_i2 800.000000
+    h5_i3 800.000000
+    h5_i1 800.000000
+    h2_l1 300.000000
+    h7_j1 100.000000
+    h9_i3 300.000000
+    h0_i3 300.000000
+    h7_j2 200.000000
+    h2_j2 200.000000
+    h2_j1 100.000000
+    h8_j1 100.000000
+    h8_j2 200.000000
+    h6_i3 300.000000
+    h6_i2 300.000000
+    h6_i1 300.000000
+    h4_j1 600.000000
+    h4_j2 200.000000
+    h5_j2 200.000000
+    h5_j1 600.000000
+/;
+parameter lambda(K,V) /
+    k1.h2_i3 3.281454
+    k1.h2_i2 1.640727
+    k1.h2_i1 4.922180
+    k1.h3_i3 2.604413
+    k1.h0_i2 0.662352
+    k1.h8_i1 5.770277
+    k1.h8_i3 3.846851
+    k1.h8_i2 1.923426
+    k1.h4_i1 4.800769
+    k1.h4_i3 3.200513
+    k1.h4_i2 1.600256
+    k1.h3_i1 3.906620
+    k1.h3_i2 1.302207
+    k1.h1_i2 1.867303
+    k1.h1_i3 3.734606
+    k1.h1_i1 5.601908
+    k1.h9_i2 1.777297
+    k1.h0_i1 1.987056
+    k1.h7_i1 2.352943
+    k1.h7_i2 0.784314
+    k1.h7_i3 1.568629
+    k1.h9_i1 5.331892
+    k1.h5_i2 1.553815
+    k1.h5_i3 3.107629
+    k1.h5_i1 4.661444
+    k1.h9_i3 3.554594
+    k1.h0_i3 1.324704
+    k1.h6_i3 2.920418
+    k1.h6_i2 1.460209
+    k1.h6_i1 4.380626
+/;
+parameter overbeta(K,V) /
+    k1.h9_j2 2.66594579096
+    k1.h9_j1 4.44324298493
+    k1.h0_j1 1.65587966139
+    k1.h0_j2 0.993527796834
+    k1.h3_j1 3.25551678126
+    k1.h3_j2 1.95331006876
+    k1.h1_j2 2.8009541674
+    k1.h1_j1 4.66825694567
+    k1.h6_j2 2.19031316289
+    k1.h6_j1 3.65052193815
+    k1.h7_j1 1.96078623712
+    k1.h7_j2 1.17647174227
+    k1.h2_j2 2.46109017971
+    k1.h2_j1 4.10181696618
+    k1.h8_j1 4.80856397427
+    k1.h8_j2 2.88513838456
+    k1.h4_j1 4.00064123122
+    k1.h4_j2 2.40038473873
+    k1.h5_j2 2.33072203725
+    k1.h5_j1 3.88453672875
+/;
+parameter underbeta(K,V) /
+    k1.h9_j2 -INF
+    k1.h9_j1 -INF
+    k1.h0_j1 -INF
+    k1.h0_j2 -INF
+    k1.h3_j1 -INF
+    k1.h3_j2 -INF
+    k1.h1_j2 -INF
+    k1.h1_j1 -INF
+    k1.h6_j2 -INF
+    k1.h6_j1 -INF
+    k1.h7_j1 -INF
+    k1.h7_j2 -INF
+    k1.h2_j2 -INF
+    k1.h2_j1 -INF
+    k1.h8_j1 -INF
+    k1.h8_j2 -INF
+    k1.h4_j1 -INF
+    k1.h4_j2 -INF
+    k1.h5_j2 -INF
+    k1.h5_j1 -INF
+/;
+parameter ub(V,V) /
+    h2_i3.h7_j2 INF
+    h2_i3.h1_j1 INF
+    h2_i3.h2_j2 INF
+    h2_i3.h2_j1 INF
+    h2_i3.h8_j1 INF
+    h2_i3.h7_l1 INF
+    h2_i3.h9_l1 INF
+    h2_i2.h2_l1 INF
+    h2_i2.h7_l1 INF
+    h2_i2.h3_j2 INF
+    h2_i1.h2_l1 INF
+    h7_i3.h7_j1 INF
+    h7_i3.h8_j2 INF
+    h7_i3.h7_j2 INF
+    h0_i1.h7_j1 INF
+    h0_i1.h0_l1 INF
+    h3_i3.h3_j1 INF
+    h3_i3.h3_j2 INF
+    h1_l1.h7_j2 INF
+    h1_l1.h3_j1 INF
+    h1_l1.h1_j2 INF
+    h1_l1.h1_j1 INF
+    h1_l1.h9_j2 INF
+    h9_l1.h7_j1 INF
+    h9_l1.h0_j2 INF
+    h9_l1.h5_j1 INF
+    h9_l1.h9_j2 INF
+    h9_l1.h9_j1 INF
+    h0_l1.h0_j1 INF
+    h0_l1.h0_j2 INF
+    h0_l1.h9_j1 INF
+    h8_i1.h8_l1 INF
+    h8_i3.h8_j1 INF
+    h8_i3.h8_j2 INF
+    h8_i3.h5_j2 INF
+    h8_i2.h8_l1 INF
+    h6_l1.h6_j2 INF
+    h6_l1.h7_j1 INF
+    h6_l1.h6_j1 INF
+    h6_l1.h0_j1 INF
+    h5_i2.h5_l1 INF
+    h5_i2.h8_l1 INF
+    h5_i3.h5_j2 INF
+    h5_i3.h5_j1 INF
+    h5_i3.h8_j1 INF
+    h3_l1.h3_j1 INF
+    h3_l1.h3_j2 INF
+    h7_i1.h7_l1 INF
+    h7_i1.h6_l1 INF
+    h2_l1.h7_j1 INF
+    h2_l1.h6_j1 INF
+    h2_l1.h2_j2 INF
+    h2_l1.h9_j2 INF
+    h2_l1.h2_j1 INF
+    h4_i1.h4_l1 INF
+    h4_i1.h1_l1 INF
+    h7_i2.h7_l1 INF
+    h4_i3.h0_j2 INF
+    h4_i3.h3_l1 INF
+    h4_i3.h4_j1 INF
+    h4_i3.h4_j2 INF
+    h4_i2.h8_j1 INF
+    h4_i2.h4_l1 INF
+    h4_i2.h2_l1 INF
+    h9_i2.h5_j2 INF
+    h9_i2.h9_l1 INF
+    h9_i2.h0_l1 INF
+    h9_i3.h0_j1 INF
+    h9_i3.h4_l1 INF
+    h9_i3.h9_j2 INF
+    h9_i3.h9_j1 INF
+    h9_i3.h0_l1 INF
+    h0_i3.h0_j1 INF
+    h0_i3.h0_j2 INF
+    h0_i3.h3_j2 INF
+    h0_i3.h6_j1 INF
+    h0_i3.h8_l1 INF
+    h9_i1.h3_j1 INF
+    h9_i1.h9_l1 INF
+    h5_i1.h5_l1 INF
+    h5_i1.h7_j1 INF
+    h5_i1.h6_j1 INF
+    h3_i1.h5_j2 INF
+    h3_i1.h8_j2 INF
+    h3_i1.h3_j1 INF
+    h3_i1.h3_l1 INF
+    h3_i1.h2_j1 INF
+    h6_i3.h6_j2 INF
+    h6_i3.h6_j1 INF
+    h6_i3.h9_j1 INF
+    h6_i3.h8_l1 INF
+    h3_i2.h7_l1 INF
+    h3_i2.h9_j2 INF
+    h3_i2.h3_l1 INF
+    h6_i1.h6_l1 INF
+    h6_i1.h1_j1 INF
+    h1_i2.h7_j1 INF
+    h1_i2.h7_l1 INF
+    h1_i2.h1_l1 INF
+    h1_i3.h5_l1 INF
+    h1_i3.h1_j2 INF
+    h1_i3.h1_j1 INF
+    h7_l1.h7_j1 INF
+    h7_l1.h7_j2 INF
+    h1_i1.h8_j2 INF
+    h1_i1.h4_l1 INF
+    h1_i1.h1_l1 INF
+    h4_l1.h5_j1 INF
+    h4_l1.h4_j1 INF
+    h4_l1.h4_j2 INF
+    h0_i2.h2_j1 INF
+    h0_i2.h0_l1 INF
+    h8_l1.h8_j1 INF
+    h8_l1.h8_j2 INF
+    h8_l1.h6_j1 INF
+    h8_l1.h0_j2 INF
+    h5_l1.h5_j2 INF
+    h5_l1.h5_j1 INF
+    h6_i2.h8_j1 INF
+    h6_i2.h6_l1 INF
+/;
+A1(I,L) = yes$(A(I,L)) ;
+A2(L,J) = yes$(A(L,J)) ;
+A3(I,J) = yes$(A(I,J)) ;
+T(I,L,J) = yes$(A1(I,L) and A2(L,J)) ;
